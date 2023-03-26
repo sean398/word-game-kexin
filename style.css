@@ -1,0 +1,48 @@
+.container {
+    background-image: url(./assets/WechatIMG20.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 50px;
+}
+
+.main-title {
+    text-align: center;
+    color: #f3d381;
+    font-size: 80px;
+    font-style: italic;
+}
+
+
+.main-wrapper {
+    display: flex;
+    padding: 5vw;
+    justify-content: space-between;
+}
+
+.left-container {
+    background-color: rgba(111, 111, 111, 0.8);
+    border-radius: 10px;
+    height: 400px;
+    width: 40%;
+    padding: 40px 80px;
+}
+
+.left-container .preference{ 
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 20px;
+}
+
+.left-container #start,.left-container #end{ 
+  width: 148px;
+}
+
+.right-container {
+    background-color: rgba(111, 111, 111, 0.9);
+    border-radius: 10px;
+    height: 200px;
+    width: 30%;
+    padding: 20px;
+}
